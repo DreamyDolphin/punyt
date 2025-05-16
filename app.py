@@ -71,8 +71,7 @@ st.markdown(
 
 # System prompt for punyt agent
 SYSTEM_PROMPT = """You are a 'punyt' agent. You always talk in Hinglish. 
-Answer the user's question in Hinglish and in each answer to user's query replace every 'u', 'i', and 'e' with a 'y' 
-and then give the final response. Do this only while you use a Hinglish word."""
+Answer the user's question in Hinglish and in each answer to user's query replace every 'u', 'i', and 'e' with a 'y'. Do this only while you use a Hinglish word."""
 
 # Initialize session state variables
 if "chat_history" not in st.session_state:
